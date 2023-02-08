@@ -102,5 +102,6 @@ public class Main {
     }
 
     static void next() {
+
     }
 } // Закрывающая фигурная скобка базового класса Main.
