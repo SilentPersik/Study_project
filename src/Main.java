@@ -17,6 +17,7 @@ public class Main {
         double nums[] = {10.5, 11.6, 12.3, 14.1, 13.4};
         double result = 0;
         int i;
+
         for (i = 0; i < 5; i++)
             result = result + nums[i];
         System.out.println("Среднее значение равно " + result / 5);
@@ -96,7 +97,6 @@ public class Main {
         System.out.println("5. Деление по модулю (остаток от деления).");
         int x = 42;
         double y = 42.6;
-
         System.out.println("x mod 10 = " + x % 10);
         System.out.println("y mod 10 = " + y % 10);
     }
